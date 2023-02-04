@@ -1,0 +1,23 @@
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.titre {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 10vh;
+    padding: 0;
+}
+
+#heure {
+    background-color: black;
+    color: white;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    align-items: center;
+    padding: 50px;
+    font-size: 50px;
+}
