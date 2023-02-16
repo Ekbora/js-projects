@@ -1,3 +1,43 @@
 body {
     font-family: Verdana, Arial, sans-serif;
+    background-color: rgb(230, 93, 93);
+}
+.title {
+    background-color: blue;
+    border: solid 4px blueviolet;
+    border-radius: 20px 0px 20px 0px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+}
+.todo-checked {
+    text-decoration: line-through;
+    background-color: green;
+}
+.todoList {
+    background-color: blueviolet;
+    padding: 10px;
+    border-radius: 20px;
+}
+.todoList > input {
+    background-color: rgb(145, 42, 42);
+    font-family: Verdana, sans-serif;
+    border: solid 2px orangered;
+    border-radius: 20px;
+    padding: 10px;
+}
+.todoList > button {
+    background-color: rgb(145, 42, 42);
+    font-family: Verdana, sans-serif;
+    border: solid 2px orangered;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+.todoList > #todoContainer > p {
+    cursor: pointer;
+    text-align: center;
+    width: 96.5%;
+    padding: 10px;
 }
