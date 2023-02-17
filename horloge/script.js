@@ -1,12 +1,12 @@
 function update(){
     let t = 1000
-    setInterval('heure()', t);             
+    setInterval('time()', t);             
 };
-function heure(){
-    let heure = new Date();
-    let h = heure.getHours();
-    let m = heure.getMinutes();
-    let s = heure.getSeconds();
+function time(){
+    let time = new Date();
+    let h = time.getHours();
+    let m = time.getMinutes();
+    let s = time.getSeconds();
     if(h < 10){
         h = "0" + h;
     };
@@ -16,7 +16,7 @@ function heure(){
     if(s < 10){
         s = "0" + s;
     };
-    let time = `${h + ":" + m + ":" + s}`;
-    document.getElementById("heure").innerHTML = time;
+    let clock = `${h + ":" + m + ":" + s}`;
+    document.getElementById("clock").innerHTML = clock;
     update();
 };

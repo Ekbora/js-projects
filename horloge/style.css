@@ -1,5 +1,6 @@
 body {
     font-family: Verdana, Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(90deg, blue, purple);
 }
 
 .titre {
@@ -8,16 +9,18 @@ body {
     margin-right: auto;
     font-size: 10vh;
     padding: 0;
+    
 }
 
-#heure {
-    background-color: black;
-    color: white;
+#clock {
+    background-color: blueviolet;
+    color: black;
     position: relative;
     margin-left: auto;
     margin-right: auto;
     width: fit-content;
-    align-items: center;
     padding: 50px;
     font-size: 50px;
+    box-shadow: 5px 5px 10px 1px black;
+    border-radius: 20px;
 }
