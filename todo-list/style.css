@@ -14,6 +14,7 @@ body {
 .todo-checked {
     text-decoration: line-through;
     background-color: green;
+    border-radius: 20px;
 }
 .todoList {
     background-color: blueviolet;
@@ -26,6 +27,7 @@ body {
     border: solid 2px orangered;
     border-radius: 20px;
     padding: 10px;
+    width: 300px;
 }
 .todoList > button {
     background-color: rgb(145, 42, 42);
@@ -40,4 +42,9 @@ body {
     text-align: center;
     width: 96.5%;
     padding: 10px;
+}
+@media screen and (max-width: 720px){
+    .todoList > input {
+        width: 200px;
+    }
 }
